@@ -12,6 +12,11 @@ export const addTodo = text => ({
     }
 });
 
+export const toggleTodo = id => ({
+    type: TOGGLE_TODO,
+    id
+});
+
 // initial state
 const initialState = [];
 
